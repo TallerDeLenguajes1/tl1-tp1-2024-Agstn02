@@ -14,3 +14,6 @@ _¿Como omitiria un archivo *ignorado.txt*?_:
 Crearia el archivo _.gitignore_ y luego escribiría la linea:
 
 `tp1/ignorado.txt`
+
+## 3 - g)
+Al mostrar la direccion de memoria de la variable y el contenido del puntero observamos que son iguales, esto se debe a que las variables de tipo puntero almacenan direcciones de memoria, y al asignar la dirección de la variable 'num' con el operador de dirección **"&"**,lo que almacena la variable puntero es la direccion de memoria de la variable 'num'. En el punto 4 devolvemos la dirección de memoria de la variable 'puntero', **&puntero**, que corresponde a SU PROPIA dirección y no a la de alguna otra variable.
