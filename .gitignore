@@ -9,14 +9,12 @@
 *.pif
 *.vb
 *.wsf
+*.i*86
+*.x86_64
+*.hex
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
@@ -28,3 +26,6 @@
 # Ignore all local history of files
 .history
 .ionide
+##ejecutables especificos##
+tp1*
+!*.cpp
